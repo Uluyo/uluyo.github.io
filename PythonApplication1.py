@@ -6,5 +6,3 @@ fig = px.scatter(gapminder.query("year==2007"), x="gdpPercap", y="lifeExp", size
                  hover_name="country", log_x=True, size_max=60)
 fig.show()
 
-import chart_studio.tools as tls
-tls.get_embed('https://uluyo.github.io') 
